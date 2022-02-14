@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:CatalogConnection"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:IdentityConnection"
+    },
+    "secrets1": {
+      "type": "secrets",
+      "connectionId": "AzureKeyVaultEndpoint"
+    }
+  }
+}
